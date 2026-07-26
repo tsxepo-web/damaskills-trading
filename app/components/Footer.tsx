@@ -15,7 +15,8 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <h3 className="mb-4 text-lg font-bold text-white">
-              <span className="text-amber-600">Damaskills</span> Trading
+              <span className="text-amber-600">Damaskills General</span> Trading
+              (Pty) Ltd
             </h3>
             <p className="mb-4 text-sm">
               Building excellence with quality craftsmanship and attention to
@@ -131,8 +132,8 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-gray-800 pt-8 text-center text-sm">
           <p>
-            &copy; {new Date().getFullYear()} Damaskills Trading. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} Damaskills general trading(Pty)
+            Ltd. All rights reserved.
           </p>
         </div>
       </div>
