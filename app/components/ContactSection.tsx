@@ -29,7 +29,7 @@ export default function ContactSection() {
               href="tel:+1234567890"
               className="text-gray-600 hover:text-amber-600 transition-colors"
             >
-              (555) 123-4567
+              083 574 1216
             </a>
           </div>
 
