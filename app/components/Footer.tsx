@@ -132,7 +132,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-gray-800 pt-8 text-center text-sm">
           <p>
-            &copy; {new Date().getFullYear()} Damaskills general trading(Pty)
+            &copy; {new Date().getFullYear()} Damaskills General Trading(Pty)
             Ltd. All rights reserved.
           </p>
         </div>
