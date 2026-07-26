@@ -52,9 +52,10 @@ export default function ContactSection() {
             </div>
             <h3 className="mb-2 font-semibold text-gray-900">Visit Us</h3>
             <p className="text-gray-600">
-              123 Main Street
+              Joe Slovo
               <br />
-              Anytown, USA 12345
+              <br />
+              Mobeni Heights, Durban, South Africa
             </p>
           </div>
         </div>

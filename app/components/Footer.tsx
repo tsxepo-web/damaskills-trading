@@ -123,7 +123,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-amber-500" />
-                <span>123 Main Street, Anytown, USA</span>
+                <span>Joe Slovo, Mobeni Heights, Durban</span>
               </li>
             </ul>
           </div>
