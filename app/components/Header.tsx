@@ -22,7 +22,9 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="text-xl font-bold text-amber-600">Damaskills</span>
-            <span className="text-xl font-bold text-gray-800">Trading</span>
+            <span className="text-xl font-bold text-gray-800">
+              Trading (Pty) Ltd
+            </span>
             <span className="block text-[10px] font-medium uppercase tracking-widest text-gray-500">
               Construction &amp; Building Services
             </span>
