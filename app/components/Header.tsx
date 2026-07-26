@@ -49,7 +49,7 @@ export default function Header() {
             className="flex items-center gap-2 text-amber-600 hover:text-amber-700 font-semibold"
           >
             <Phone className="h-4 w-4" />
-            (555) 123-4567
+            083 574 1216
           </a>
           <Link
             href="/contact"
