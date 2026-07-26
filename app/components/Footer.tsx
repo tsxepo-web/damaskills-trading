@@ -118,7 +118,7 @@ export default function Footer() {
                   href="mailto:info@eliteconstruction.com"
                   className="hover:text-amber-500 transition-colors"
                 >
-                  info@eliteconstruction.com
+                  damaskills.general@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">

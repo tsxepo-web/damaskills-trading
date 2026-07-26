@@ -42,7 +42,7 @@ export default function ContactSection() {
               href="mailto:info@eliteconstruction.com"
               className="text-gray-600 hover:text-amber-600 transition-colors"
             >
-              info@eliteconstruction.com
+              damaskills.general@gmail.com
             </a>
           </div>
 
