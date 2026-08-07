@@ -116,7 +116,7 @@ export default function Footer() {
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-amber-500" />
                 <a
-                  href="mailto:info@eliteconstruction.com"
+                  href="mailto:damaskills.general@gmail.com"
                   className="hover:text-amber-500 transition-colors"
                 >
                   damaskills.general@gmail.com
