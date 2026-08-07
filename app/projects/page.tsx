@@ -1,0 +1,168 @@
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, Calendar, MapPin, Building2 } from "lucide-react";
+
+// Project data - you can move this to a separate file later
+const projects = [
+  {
+    id: 1,
+    title: "Downtown Office Tower",
+    category: "Commercial",
+    location: "City Center",
+    year: "2024",
+    description:
+      "A 12-story commercial office building featuring modern architecture, energy-efficient systems, and premium office spaces.",
+    image: "/images/projects/project-14.jpeg",
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Lakeside Modern Home",
+    category: "Residential",
+    location: "Lakeview Estates",
+    year: "2023",
+    description:
+      "Contemporary lakefront residence with panoramic views, sustainable materials, and open-concept living spaces.",
+    image: "/images/projects/project-2.jpeg",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "Riverside Retail Center",
+    category: "Commercial",
+    location: "Riverside District",
+    year: "2023",
+    description:
+      "A vibrant retail complex featuring 20+ stores, a riverside promenade, and modern architectural design.",
+    image: "/images/projects/project-3.jpeg",
+    featured: true,
+  },
+  {
+    id: 4,
+    title: "Mountain View Villa",
+    category: "Residential",
+    location: "Highland Estates",
+    year: "2024",
+    description:
+      "Luxury villa with mountain views, featuring a modern design, smart home technology, and premium finishes.",
+    image: "/images/projects/project-4.jpeg",
+    featured: false,
+  },
+  {
+    id: 5,
+    title: "Tech Hub Office Complex",
+    category: "Commercial",
+    location: "Innovation Park",
+    year: "2024",
+    description:
+      "State-of-the-art office complex designed for tech companies, featuring collaborative spaces and sustainable design.",
+    image: "/images/projects/project-5.jpeg",
+    featured: false,
+  },
+  {
+    id: 6,
+    title: "Heritage Home Renovation",
+    category: "Residential",
+    location: "Old Town District",
+    year: "2023",
+    description:
+      "Complete renovation of a historic home, preserving original character while adding modern amenities.",
+    image: "/images/projects/project-6.jpeg",
+    featured: false,
+  },
+];
+
+export default function ProjectsPage() {
+  return (
+    <div className="min-h-screen bg-gray-50 pt-16">
+      {/* Hero Section */}
+      <section className="relative bg-gray-900 py-16 md:py-24">
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-black/60" />
+        </div>
+        <div className="relative mx-auto max-w-7xl px-4 text-center text-white lg:px-8">
+          <h1 className="mb-4 text-4xl font-bold md:text-5xl">Our Projects</h1>
+          <p className="mx-auto max-w-2xl text-lg text-gray-300">
+            Explore our portfolio of completed projects showcasing our
+            commitment to quality craftsmanship and client satisfaction.
+          </p>
+        </div>
+      </section>
+
+      {/* Projects Grid */}
+      <section className="py-16 md:py-24">
+        <div className="mx-auto max-w-7xl px-4 lg:px-8">
+          {/* Filter Buttons */}
+          <div className="mb-12 flex flex-wrap justify-center gap-4">
+            <button className="rounded-full bg-amber-600 px-6 py-2 text-sm font-semibold text-white hover:bg-amber-500 transition-colors">
+              All Projects
+            </button>
+            <button className="rounded-full bg-white px-6 py-2 text-sm font-semibold text-gray-700 shadow-sm hover:bg-gray-50 transition-colors">
+              Commercial
+            </button>
+            <button className="rounded-full bg-white px-6 py-2 text-sm font-semibold text-gray-700 shadow-sm hover:bg-gray-50 transition-colors">
+              Residential
+            </button>
+          </div>
+
+          {/* Project Cards */}
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {projects.map((project) => (
+              <div
+                key={project.id}
+                className="group overflow-hidden rounded-lg bg-white shadow-md hover:shadow-xl transition-shadow"
+              >
+                {/* Image */}
+                <div className="relative h-64 w-full overflow-hidden">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                  {project.featured && (
+                    <div className="absolute top-4 right-4 rounded-full bg-amber-600 px-3 py-1 text-xs font-semibold text-white">
+                      Featured
+                    </div>
+                  )}
+                </div>
+
+                {/* Content */}
+                <div className="p-6">
+                  <div className="mb-2 flex items-center gap-2 text-sm text-amber-600">
+                    <Building2 className="h-4 w-4" />
+                    <span className="font-semibold">{project.category}</span>
+                  </div>
+                  <h3 className="mb-2 text-xl font-bold text-gray-900 group-hover:text-amber-600 transition-colors">
+                    {project.title}
+                  </h3>
+                  <p className="mb-4 text-sm text-gray-600 line-clamp-2">
+                    {project.description}
+                  </p>
+                  <div className="mb-4 flex items-center gap-4 text-sm text-gray-500">
+                    <span className="flex items-center gap-1">
+                      <MapPin className="h-4 w-4" />
+                      {project.location}
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <Calendar className="h-4 w-4" />
+                      {project.year}
+                    </span>
+                  </div>
+                  <Link
+                    href={`/projects/${project.id}`}
+                    className="inline-flex items-center text-sm font-semibold text-amber-600 hover:text-amber-700 transition-colors"
+                  >
+                    View Details
+                    <ArrowLeft className="ml-1 h-4 w-4 rotate-180" />
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
