@@ -75,6 +75,27 @@ export default function ContactPage() {
                       <br />
                       Lamontville, Durban, 4027
                     </p>
+                    <a
+                      href="https://www.google.com/maps/dir//100+Joe+Slovo,+Lamontville,+Durban,+4027"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-amber-600 hover:text-amber-700 font-semibold inline-flex items-center gap-1 mt-1"
+                    >
+                      Get Directions
+                      <svg
+                        className="h-4 w-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        />
+                      </svg>
+                    </a>
                   </div>
                 </div>
 
@@ -184,6 +205,57 @@ export default function ContactPage() {
                 </button>
               </form>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Map Section - NEW */}
+      <section className="bg-white py-16">
+        <div className="mx-auto max-w-7xl px-4 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold text-gray-900">Find Us Here</h2>
+            <p className="text-gray-600 mt-2">
+              100 Joe Slovo, Lamontville, Durban, 4027
+            </p>
+          </div>
+
+          <div className="relative h-100 w-full overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27660.68821626105!2d30.924576701321968!3d-29.933817898655622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7abaa09199827%3A0xd95c098c979a259f!2sMobeni%20Heights%20Civic%20Association!5e0!3m2!1sen!2sza!4v1786095720969!5m2!1sen!2sza"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Damaskills Trading Location"
+              className="absolute inset-0"
+            />
+          </div>
+
+          <div className="mt-4 text-center">
+            <a
+              href="https://www.google.com/maps/dir//100+Joe+Slovo,+Lamontville,+Durban,+4027"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-amber-600 hover:text-amber-700 font-semibold transition-colors"
+            >
+              <MapPin className="h-5 w-5" />
+              Open in Google Maps
+              <svg
+                className="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>
+            </a>
           </div>
         </div>
       </section>

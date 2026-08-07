@@ -4,21 +4,21 @@ import Link from "next/link";
 const projects = [
   {
     id: 1,
-    title: "Downtown Office Tower",
+    title: "Joe Slovo Government Project",
     category: "Commercial",
-    image: "/images/project-1.jpeg",
+    image: "/images/projects/project-14.jpeg",
   },
   {
     id: 2,
     title: "Lakeside Modern Home",
     category: "Residential",
-    image: "/images/project-2.jpeg",
+    image: "/images/projects/project-38.jpeg",
   },
   {
     id: 3,
     title: "Riverside Retail Center",
-    category: "Commercial",
-    image: "/images/project-3.jpeg",
+    category: "Residential",
+    image: "/images/projects/project-40.jpeg",
   },
 ];
 
