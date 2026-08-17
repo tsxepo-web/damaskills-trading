@@ -204,12 +204,6 @@ export default function AboutPage() {
               <Phone className="h-8 w-8 text-amber-600" />
               <p className="mt-2 font-semibold">Phone</p>
               <a
-                href="tel:+2731400469"
-                className="text-gray-600 hover:text-amber-600"
-              >
-                031 400 469
-              </a>
-              <a
                 href="tel:+27835741216"
                 className="text-gray-600 hover:text-amber-600"
               >
@@ -231,11 +225,7 @@ export default function AboutPage() {
             <div className="flex flex-col items-center">
               <MapPin className="h-8 w-8 text-amber-600" />
               <p className="mt-2 font-semibold">Address</p>
-              <p className="text-gray-600">
-                100 Joe Slovo
-                <br />
-                Lamontville, Durban, 4027
-              </p>
+              <p className="text-gray-600">100 Oribi Cir, Mobeni Heights</p>
             </div>
           </div>
         </div>

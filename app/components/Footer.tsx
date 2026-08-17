@@ -22,36 +22,6 @@ export default function Footer() {
               Building excellence with quality craftsmanship and attention to
               detail since 2016.
             </p>
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="text-gray-400 hover:text-amber-500 transition-colors"
-                aria-label="Facebook"
-              >
-                <FacebookIcon className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-amber-500 transition-colors"
-                aria-label="X (Twitter)"
-              >
-                <XIcon className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-amber-500 transition-colors"
-                aria-label="Instagram"
-              >
-                <InstagramIcon className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-amber-500 transition-colors"
-                aria-label="YouTube"
-              >
-                <YoutubeIcon className="h-5 w-5" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -124,7 +94,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-amber-500" />
-                <span>Joe Slovo, Mobeni Heights, Durban</span>
+                <span>100 Oribi Cir, Mobeni Heights</span>
               </li>
             </ul>
           </div>

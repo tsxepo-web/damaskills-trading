@@ -10,13 +10,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "Lakeside Modern Home",
-    category: "Residential",
-    image: "/images/projects/project-38.jpeg",
+    title: "Mobeni Heights",
+    category: "Commercial",
+    image: "/images/projects/MANHOLE.jpeg",
   },
   {
     id: 3,
-    title: "Riverside Retail Center",
+    title: "kwaNongoma",
     category: "Residential",
     image: "/images/projects/project-40.jpeg",
   },

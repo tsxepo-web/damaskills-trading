@@ -51,12 +51,7 @@ export default function ContactSection() {
               <MapPin className="h-6 w-6" />
             </div>
             <h3 className="mb-2 font-semibold text-gray-900">Visit Us</h3>
-            <p className="text-gray-600">
-              Joe Slovo
-              <br />
-              <br />
-              Mobeni Heights, Durban, South Africa
-            </p>
+            <p className="text-gray-600">100 Oribi Cir, Mobeni Heights</p>
           </div>
         </div>
 

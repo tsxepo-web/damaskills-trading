@@ -6,9 +6,9 @@ import { ArrowLeft, Calendar, MapPin, Building2 } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Downtown Office Tower",
+    title: "Joe Slovo Bridge",
     category: "Commercial",
-    location: "City Center",
+    location: "Mobeni Heights, Durban",
     year: "2024",
     description:
       "A 12-story commercial office building featuring modern architecture, energy-efficient systems, and premium office spaces.",
