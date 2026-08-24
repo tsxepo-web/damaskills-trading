@@ -202,12 +202,6 @@ export default function ContactPage() {
                     >
                       083 574 1216
                     </a>
-                    <a
-                      href="tel:+27720649970"
-                      className="text-gray-600 hover:text-amber-600 block"
-                    >
-                      072 064 9970
-                    </a>
                   </div>
                 </div>
 
