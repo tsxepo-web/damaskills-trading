@@ -3,21 +3,20 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "Homeowner",
-    content:
-      "Elite Construction completely transformed our kitchen. The team was professional, on time, and the quality is exceptional. Highly recommend!",
+    name: "WATER SAFETY ADVOCACY GROUP",
+    role: "BUSINESS OFFICE",
+    content: "Upgraded our office furnisher, canteen area and boardroom",
   },
   {
     id: 2,
-    name: "Michael Chen",
+    name: "Sakhile Mkhize",
     role: "Business Owner",
     content:
       "They built our new office space from the ground up. Communication was great throughout the entire process. Couldn't be happier with the result.",
   },
   {
     id: 3,
-    name: "Robert Thompson",
+    name: "Njabulo Dlamini",
     role: "Property Developer",
     content:
       "We've worked with Elite Construction on multiple projects. Their attention to detail and ability to stay within budget is unmatched.",
