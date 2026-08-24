@@ -48,7 +48,7 @@ export default function Header() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-4">
           <a
             href="https://wa.me/27835741216"
-            className="flex items-center gap-2 text-amber-600 hover:text-amber-700 font-semibold"
+            className="flex items-center gap-2 text-green-600 hover:text-amber-700 font-semibold"
           >
             <svg
               className="h-4 w-4"
