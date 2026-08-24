@@ -23,7 +23,7 @@ const projects = [
     year: "2023",
     description:
       "Contemporary lakefront residence with panoramic views, sustainable materials, and open-concept living spaces.",
-    image: "/images/projects/project-2.jpeg",
+    image: "/images/projects/project-38.jpeg",
     featured: true,
   },
   {
@@ -34,7 +34,7 @@ const projects = [
     year: "2023",
     description:
       "A vibrant retail complex featuring 20+ stores, a riverside promenade, and modern architectural design.",
-    image: "/images/projects/project-3.jpeg",
+    image: "/images/projects/project-41.jpeg",
     featured: true,
   },
   {
@@ -45,7 +45,7 @@ const projects = [
     year: "2024",
     description:
       "Luxury villa with mountain views, featuring a modern design, smart home technology, and premium finishes.",
-    image: "/images/projects/project-4.jpeg",
+    image: "/images/projects/project-42.jpeg",
     featured: false,
   },
   {
@@ -56,7 +56,7 @@ const projects = [
     year: "2024",
     description:
       "State-of-the-art office complex designed for tech companies, featuring collaborative spaces and sustainable design.",
-    image: "/images/projects/project-5.jpeg",
+    image: "/images/projects/project-43.jpeg",
     featured: false,
   },
   {
@@ -67,7 +67,7 @@ const projects = [
     year: "2023",
     description:
       "Complete renovation of a historic home, preserving original character while adding modern amenities.",
-    image: "/images/projects/project-6.jpeg",
+    image: "/images/projects/project-44.jpeg",
     featured: false,
   },
 ];
