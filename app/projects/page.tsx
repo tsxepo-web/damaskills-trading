@@ -17,9 +17,9 @@ const projects = [
   },
   {
     id: 2,
-    title: "Lakeside Modern Home",
+    title: "Umlazi Township",
     category: "Residential",
-    location: "Lakeview Estates",
+    location: "Umlazi, Durban",
     year: "2023",
     description:
       "Contemporary lakefront residence with panoramic views, sustainable materials, and open-concept living spaces.",
@@ -28,9 +28,9 @@ const projects = [
   },
   {
     id: 3,
-    title: "Riverside Retail Center",
-    category: "Commercial",
-    location: "Riverside District",
+    title: "Umlazi Township",
+    category: "Residential",
+    location: "Umlazi, Durban",
     year: "2023",
     description:
       "A vibrant retail complex featuring 20+ stores, a riverside promenade, and modern architectural design.",
@@ -39,9 +39,9 @@ const projects = [
   },
   {
     id: 4,
-    title: "Mountain View Villa",
+    title: "Umlazi Township",
     category: "Residential",
-    location: "Highland Estates",
+    location: "Umlazi, Durban",
     year: "2024",
     description:
       "Luxury villa with mountain views, featuring a modern design, smart home technology, and premium finishes.",
@@ -50,9 +50,9 @@ const projects = [
   },
   {
     id: 5,
-    title: "Tech Hub Office Complex",
-    category: "Commercial",
-    location: "Innovation Park",
+    title: "Umlazi Township",
+    category: "Residential",
+    location: "Umlazi, Durban",
     year: "2024",
     description:
       "State-of-the-art office complex designed for tech companies, featuring collaborative spaces and sustainable design.",
@@ -61,9 +61,9 @@ const projects = [
   },
   {
     id: 6,
-    title: "Heritage Home Renovation",
+    title: "Umbilo",
     category: "Residential",
-    location: "Old Town District",
+    location: "Umbilo, Durban",
     year: "2023",
     description:
       "Complete renovation of a historic home, preserving original character while adding modern amenities.",
