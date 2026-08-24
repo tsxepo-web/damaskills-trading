@@ -11,7 +11,7 @@ const projects = [
     location: "Mobeni Heights, Durban",
     year: "2024",
     description:
-      "A 12-story commercial office building featuring modern architecture, energy-efficient systems, and premium office spaces.",
+      "Built a community bridge for government, ensuring structural integrity and safety for pedestrians.",
     image: "/images/projects/project-14.jpeg",
     featured: true,
   },
@@ -22,7 +22,7 @@ const projects = [
     location: "Umlazi, Durban",
     year: "2023",
     description:
-      "Contemporary lakefront residence with panoramic views, sustainable materials, and open-concept living spaces.",
+      "Installed custom aluminium railings for a client, with attention to durability and finish.",
     image: "/images/projects/project-38.jpeg",
     featured: true,
   },
@@ -33,7 +33,7 @@ const projects = [
     location: "Umlazi, Durban",
     year: "2023",
     description:
-      "A vibrant retail complex featuring 20+ stores, a riverside promenade, and modern architectural design.",
+      "Building a strong perimeter fence involves several sequential stages, starting with setting the foundation and finishing with specialized panels to enhance security.",
     image: "/images/projects/project-41.jpeg",
     featured: true,
   },
@@ -44,7 +44,7 @@ const projects = [
     location: "Umlazi, Durban",
     year: "2024",
     description:
-      "Luxury villa with mountain views, featuring a modern design, smart home technology, and premium finishes.",
+      "Completed the installation of aluminium gates for a client, ensuring all fittings and alignments were securely in place.",
     image: "/images/projects/project-42.jpeg",
     featured: false,
   },
@@ -55,7 +55,7 @@ const projects = [
     location: "Umlazi, Durban",
     year: "2024",
     description:
-      "State-of-the-art office complex designed for tech companies, featuring collaborative spaces and sustainable design.",
+      "Installation of aluminium railings for a client, ensuring all fittings and alignments were securely in place.",
     image: "/images/projects/project-43.jpeg",
     featured: false,
   },
@@ -66,7 +66,7 @@ const projects = [
     location: "Umbilo, Durban",
     year: "2023",
     description:
-      "Complete renovation of a historic home, preserving original character while adding modern amenities.",
+      "Aluminium door installation for a residential property, ensuring security and aesthetic appeal.",
     image: "/images/projects/project-44.jpeg",
     featured: false,
   },
