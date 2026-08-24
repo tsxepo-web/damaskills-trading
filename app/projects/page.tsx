@@ -39,24 +39,24 @@ const projects = [
   },
   {
     id: 4,
-    title: "Umlazi Township",
+    title: "Ndwedwe Project",
     category: "Residential",
     location: "Umlazi, Durban",
     year: "2024",
     description:
       "Completed the installation of aluminium gates for a client, ensuring all fittings and alignments were securely in place.",
-    image: "/images/projects/project-42.jpeg",
+    image: "/images/projects/project-45.jpeg",
     featured: false,
   },
   {
     id: 5,
-    title: "Umlazi Township",
+    title: "Ndwedwe Project",
     category: "Residential",
     location: "Umlazi, Durban",
     year: "2024",
     description:
       "Installation of aluminium railings for a client, ensuring all fittings and alignments were securely in place.",
-    image: "/images/projects/project-43.jpeg",
+    image: "/images/projects/project-46.jpeg",
     featured: false,
   },
   {
