@@ -10,14 +10,14 @@ const testimonials = [
   {
     id: 2,
     name: "Sakhile Mkhize",
-    role: "Business Owner",
+    role: "Home Owner",
     content:
-      "They built our new office space from the ground up. Communication was great throughout the entire process. Couldn't be happier with the result.",
+      "They built ceiling from my house. They delivered on time and within budget. I would highly recommend them for any construction project.",
   },
   {
     id: 3,
     name: "Njabulo Dlamini",
-    role: "Property Developer",
+    role: "Business Owner",
     content:
       "We've worked with Elite Construction on multiple projects. Their attention to detail and ability to stay within budget is unmatched.",
   },
